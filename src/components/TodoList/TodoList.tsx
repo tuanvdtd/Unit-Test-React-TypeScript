@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 
 // Data Type này chúng ta follow theo dummyjson.com (gọi api ở dưới)
-type Todo = {
+export type Todo = {
   id: number,
   todo: string,
   completed: boolean,
